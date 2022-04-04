@@ -1,0 +1,44 @@
+[
+    {
+        "id": "1",
+        "name": "Saimum Hoq Mimu",
+        "comment": "I am satisfied with the quality. I think they have provided the best of their quality.",
+        "rating": "5",
+        "photo": ""
+    },
+    {
+        "id": "2",
+        "name": "Sadi Mahmood",
+        "comment": "Quality is good. But I think they should work more on improving the nose clip.",
+        "rating": "4",
+        "photo": ""
+    },
+    {
+        "id": "3",
+        "name": "Wakil Mahbub Rafin",
+        "comment": "These masks are comfortable. It is not difficult to breathe through it.",
+        "rating": "5",
+        "photo": ""
+    },
+    {
+        "id": "4",
+        "name": "Khademul Hoq Dipto",
+        "comment": "The products are fairly fine. However, it would be better if it is a little softer.",
+        "rating": "4",
+        "photo": ""
+    },
+    {
+        "id": "5",
+        "name": "Nahian Mahbub",
+        "comment": "Products are standard. The price is also reasonable. Everyone should try using it.",
+        "rating": "5",
+        "photo": ""
+    },
+    {
+        "id": "6",
+        "name": "Mehrab Uddin Arnob",
+        "comment": "The stress of the elastics must be reduced. Because it causes ear pain.",
+        "rating": "4",
+        "photo": ""
+    }
+]
