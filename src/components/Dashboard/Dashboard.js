@@ -1,5 +1,6 @@
 import React from 'react';
 import { LineChart, Line, XAxis, YAxis, Tooltip, PieChart, Pie } from 'recharts';
+import './Dashboard.css'
 
 
 const Dashboard = () => {
@@ -42,8 +43,8 @@ const Dashboard = () => {
         }
     ]
     return (
-        <div className='d-flex justify-content-center mt-5'>
-            <div>
+        <div className='d-flex justify-content-center mt-5 chart'>
+            <div className='line-chart'>
                 <h5 className='text-center fw-bold'>Month Wise Revenue</h5>
                 <LineChart width={400} height={300} data={data}>
                     <Line dataKey={'revenue'}></Line>
@@ -53,7 +54,7 @@ const Dashboard = () => {
                 </LineChart>
             </div>
 
-            <div>
+            <div className='pie-chart'>
                 <h5 className='text-center fw-bold mb-3'>Sell Vs Investment</h5>
                 <PieChart width={730} height={250}>
                     <Pie data={data} dataKey="sell" nameKey="investment" cx="50%" cy="50%" outerRadius={70} fill="#8884d8" />

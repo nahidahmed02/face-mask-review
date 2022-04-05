@@ -1,0 +1,21 @@
+/* -------- Media Queries --------*/
+
+/* Mobile Devices */
+
+@media only screen and (max-width: 688px) {
+    .chart {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .line-chart {
+        width: 100%;
+    }
+
+    .pie-chart {
+        margin-top: 50px;
+    }
+
+}

@@ -7,3 +7,22 @@
     color: blueviolet;
     font-weight: 800;
 }
+
+/* -------- Media Queries --------*/
+
+/* Mobile Devices */
+@media only screen and (max-width: 688px) {
+    .title-pic img {
+        width: 100%;
+        order: 1;
+        margin-bottom: 20px;
+    }
+
+    .title-text {
+        order: 2;
+    }
+
+    .title-text h1 {
+        text-align: center;
+    }
+}
