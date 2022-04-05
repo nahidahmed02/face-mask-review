@@ -4,13 +4,13 @@
         "name": "Saimum Hoq Mimu",
         "comment": "I am satisfied with the quality. I think they have provided the best of their quality.",
         "rating": "5",
-        "photo": "../images/mimu.jpg"
+        "photo": "../images/saimum.jpg"
     },
     {
         "id": "2",
         "name": "Sadi Mahmood",
         "comment": "Quality is good. But I think they should work more on improving the nose clip.",
-        "rating": "4",
+        "rating": "4.2",
         "photo": "../images/sadi.jpg"
     },
     {
@@ -24,7 +24,7 @@
         "id": "4",
         "name": "Khademul Hoq Dipto",
         "comment": "The products are fairly fine. However, it would be better if it is a little softer.",
-        "rating": "4",
+        "rating": "4.5",
         "photo": "../images/dipto.jpg"
     },
     {
@@ -32,7 +32,7 @@
         "name": "Nahian Mahbub",
         "comment": "Products are standard. The price is also reasonable. Everyone should try using it.",
         "rating": "5",
-        "photo": "../images/nahian.jpg"
+        "photo": "../images/nahian2.jpg"
     },
     {
         "id": "6",

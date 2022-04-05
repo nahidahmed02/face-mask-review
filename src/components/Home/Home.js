@@ -1,7 +1,9 @@
 import React from 'react';
+import useReviews from '../../hooks/useReviews';
 import './Home.css'
 
 const Home = () => {
+    const [reviews] = useReviews()
     return (
         <div className='container my-5'>
             <div className='d-flex row'>
@@ -13,6 +15,10 @@ const Home = () => {
                 <div className='col-lg-4'>
                     <img src="../../images/mask box.jpg" alt="" />
                 </div>
+            </div>
+
+            <div className='mt-5'>
+                <h3 className='text-center fw-bold'>Customer Reviews({reviews.length})</h3>
             </div>
         </div>
     );
