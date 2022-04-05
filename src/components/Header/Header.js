@@ -2,6 +2,7 @@ import React from 'react';
 import CustomLink from '../CustomLink/CustomLink';
 
 const Header = () => {
+
     return (
         <nav className='d-flex justify-content-center my-4'>
             <CustomLink to={'/home'} className='me-4'>Home</CustomLink>

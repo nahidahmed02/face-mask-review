@@ -13,7 +13,8 @@ const Review = (props) => {
                 </Card.Header>
                 <Card.Body>
                     <Card.Text>
-                        <p className='comment'> "{comment}"</p>
+                        <small className='comment'> "{comment}"</small>
+                        <br />
                         <small>Rating: <strong>{rating}/5</strong> </small>
                     </Card.Text>
                 </Card.Body>
