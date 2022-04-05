@@ -1,9 +1,12 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import useReviews from '../../hooks/useReviews';
+import Review from '../Review/Review';
 import './Home.css'
 
 const Home = () => {
-    const [reviews] = useReviews()
+    const [reviews] = useReviews();
+    const navigate = useNavigate();
     return (
         <div className='container my-5'>
             <div className='d-flex row'>
@@ -19,6 +22,17 @@ const Home = () => {
 
             <div className='mt-5'>
                 <h3 className='text-center fw-bold'>Customer Reviews({reviews.length})</h3>
+                <div className='row g-4 mt-4'>
+                    {
+                        reviews.slice(0, 3).map(review => <Review
+                            key={review.id}
+                            review={review}
+                        ></Review>)
+                    }
+                </div>
+                <div className='text-center mt-3'>
+                    <button onClick={() => navigate('/reviews')} className='btn btn-dark py-1 px-5'>See All Reviews</button>
+                </div>
             </div>
         </div>
     );
